@@ -1,0 +1,29 @@
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  
+  .typing-animation {
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid white; /* Ensure the border color matches the text color */
+    animation: typing 2s steps(20, end) infinite, blink 0.7s step-end infinite;
+    color: white; /* Ensure the text color is white */
+    width: 0; /* Start with width 0 for the typing effect */
+  }
+
+  
+  
+  
+  
