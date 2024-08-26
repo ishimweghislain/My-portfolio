@@ -65,7 +65,7 @@ const Skills = () => {
     loop
     muted
     autoPlay
-    src="/net.mp4">
+    src="/ne.mp4">
   </video>
 </div>
 

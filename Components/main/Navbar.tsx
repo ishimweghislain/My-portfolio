@@ -26,7 +26,7 @@ const Navbar = () => {
          <a href="#about-me" className='cursor-pointer'>About me</a>
          <a href="#skills" className='cursor-pointer'>Skils</a>
          <a href="#projects" className='cursor-pointer'>Projects</a>
-
+         <a href="#contact" className='cursor-pointer'>Contact Us</a>
          </div>
         </div>
         <div className="flex flex-row gap-5 cursor-pointer">

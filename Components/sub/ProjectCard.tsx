@@ -21,7 +21,7 @@ const ProjectCard = ({ src, title, description} : Props) => {
         <p className="mt-2 text-gray-300 text-center">{description}</p>
         
         <button 
-          className="mt-4 px-6 py-2 text-sm font-medium mt-[10px] text-white bg-purple-600 rounded-md hover:bg-purple-700 transition-colors duration-300"
+          className="mt-4 px-6 py-2 text-sm font-medium mt-[10px] text-white bg-purple-600 rounded-md hover:bg-purple-700 transition-colors duration-300 cursor-pointer"
         >
           Click to Visit site !
         </button>
